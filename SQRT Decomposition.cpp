@@ -63,14 +63,17 @@ int Query(int l, int r)
 
 int main()
 {
-    // int input[] = {1, 5, 2, 4, 6, 1, 3, 5, 7, 10};
-    // int n = sizeof(input) / sizeof(input[0]);
+    int input[] = {1, 5, 2, 4, 6, 1, 3, 5, 7, 10};
+    int n = sizeof(input) / sizeof(input[0]);
 
-    // Build(input, n);
+    Build(input, n);
 
-    // cout << "query(3,8) : " << Query(3, 8) << endl;
-    // cout << "query(1,6) : " << Query(1, 6) << endl;
-    // Update(8, 0);
-    // cout << "query(8,8) : " << Query(8, 8) << endl;
+    cout << "query(3,8) : " << Query(3, 8) << endl;
+    cout << "query(1,6) : " << Query(1, 6) << endl;
+
+    Update(8, 0);
+
+    cout << "query(8,8) : " << Query(8, 8) << endl;
+
     return 0;
 }

@@ -73,11 +73,14 @@ void QueryAns(int arr[], int n, Query q[], int m)
 
 int main()
 {
-    // int a[] = {1, 1, 2, 1, 3, 4, 5, 2, 8};
-    // int n = sizeof(a) / sizeof(a[0]);
-    // Query q[] = {{2, 4}, {3, 3}, {4, 6}};
-    // int m = sizeof(q) / sizeof(q[0]);
-    // QueryAns(a, n, q, m);
+    int a[] = {1, 1, 2, 1, 3, 4, 5, 2, 8};
+    int n = sizeof(a) / sizeof(a[0]);
+
+    Query q[] = {{2, 4}, {3, 3}, {4, 6}};
+
+    int m = sizeof(q) / sizeof(q[0]);
+
+    QueryAns(a, n, q, m);
 
     return 0;
 }
